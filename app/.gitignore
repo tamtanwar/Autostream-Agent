@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Large models (GPT4All)
+*.gguf
+*.bin
+
+# VSCode / Mac files
+.vscode/
+.DS_Store
+
+# Logs
+*.log

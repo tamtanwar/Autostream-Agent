@@ -1,0 +1,12 @@
+langchain==0.2.15
+langchain-community==0.2.15
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+gpt4all==2.8.2
+PyYAML>=5.3
+numpy>=1.26.0
+SQLAlchemy>=1.4
+aiohttp>=3.8.3
+tenacity>=8.1.0
+requests>=2.32.0
+pydantic>=2.8.0
