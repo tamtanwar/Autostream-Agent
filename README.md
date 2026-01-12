@@ -65,7 +65,7 @@ python main.py
 
 ---
 
-## Architecture Explanation (≈200 words)
+## Architecture Explanation 
 
 The AutoStream Agent combines **RAG (Retrieval-Augmented Generation)** with a local LLM (GPT4All) to deliver context-aware answers.  
 The knowledge base, stored as a local JSON file, contains product plans, features, and company policies. A **vector store** is created using `faiss-cpu` and `sentence-transformers` to generate embeddings and enable similarity search for relevant content.  
