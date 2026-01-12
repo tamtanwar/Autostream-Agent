@@ -24,6 +24,9 @@ The agent can:
 
 ## Folder Structure
 
+## Folder Structure
+
+```text
 autostream-agent/
 ├── app/
 │   ├── agent.py        # Main conversational agent logic
@@ -37,6 +40,7 @@ autostream-agent/
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── .gitignore          # Git ignore rules (models, venv, cache)
+```
 
 ---
 
