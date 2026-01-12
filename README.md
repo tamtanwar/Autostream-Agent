@@ -36,7 +36,7 @@ autostream-agent/
 │   └── rag.py          # RAG setup for knowledge retrieval
 │
 ├── knowledge_base.json # Local knowledge base used for RAG
-├── main.py             # Application entry point
+├── main.py             # App entry point
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── .gitignore          # Git ignore rules (models, venv, cache)
