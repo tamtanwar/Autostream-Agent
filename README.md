@@ -25,16 +25,18 @@ The agent can:
 ## Folder Structure
 
 autostream-agent/
-├─ app/
-│  ├─ agent.py          # Main conversational agent logic
-│  ├─ intent.py         # AI-based intent detection
-│  ├─ memory.py         # Conversation memory & lead capture tracking
-│  ├─ tools.py          # Mock lead capture function
-│  └─ rag.py            # RAG setup for knowledge retrieval
-├─ main.py              # Entry point to run the agent
-├─ knowledge_base.json  # Local knowledge base for RAG
-├─ requirements.txt     # Python dependencies
-└─ README.md            # Project documentation
+├── app/
+│   ├── agent.py        # Main conversational agent logic
+│   ├── intent.py       # AI-based intent detection
+│   ├── memory.py       # Conversation memory & lead tracking
+│   ├── tools.py        # Mock lead capture utilities
+│   └── rag.py          # RAG setup for knowledge retrieval
+│
+├── knowledge_base.json # Local knowledge base used for RAG
+├── main.py             # Application entry point
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+└── .gitignore          # Git ignore rules (models, venv, cache)
 
 ---
 
